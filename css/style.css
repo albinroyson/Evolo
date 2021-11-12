@@ -1,0 +1,1606 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+#spotlight{
+	background: url(../images/header-background.jpg) no-repeat;
+	background-size: 100%;
+	background-position: center;
+    background-position-y: 31%;
+}
+#spotlight section.wrapper{
+
+}
+#spotlight header{
+	display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#spotlight header div.left{
+	width: 31%;
+    align-items: center;
+}
+#spotlight header div.left h1{
+	width: 31%;
+
+}
+#spotlight header div.left h1 a{
+
+}
+#spotlight header div.left h1 a img{
+	display: block;
+	width: 100%;
+
+}
+#spotlight header div.right{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight header div.right ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 97px;
+}
+#spotlight header div.right ul li{
+		display: flex;
+}
+#spotlight header div.right ul li div.arrow{
+
+
+}
+
+
+#spotlight header div.right ul li a.button{
+	display: block;
+	color: #fff;
+	font-size: 16px
+	
+}
+#spotlight header div.right ul li  a div.img_container{
+	display: inline-flex;
+	width: 17%;
+	
+}
+#spotlight header div.right ul li a div.img_container img{
+	width: 100%;
+	display: block;
+	filter: brightness(4.5)
+
+}
+#spotlight header div.right ul li a.button:hover{
+	display: block;
+	color: #fff;
+	border-bottom: 1px solid;
+}
+#spotlight header div.right ul div.social{
+	display: flex;
+	justify-content: space-between;
+	width: 10%;
+}
+#spotlight header div.right ul div.social li{
+	width: 50%;
+}
+#spotlight header div.right ul div.social li:last-child{
+	margin-left: 10px;
+	
+}
+#spotlight header div.right ul div.social li a{
+	
+}
+#spotlight header div.right ul div.social li a img{
+	display: block;
+	width: 100%;
+}
+#spotlight section.home{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15%;
+
+
+}
+#spotlight section.home div.left{
+    width: 39%;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 73px;
+}
+#spotlight section.home div.left span.color{
+	
+
+}
+#spotlight section.home div.left span.color h1{
+	font-size: 55px;
+	color: #00BFD8;
+	font-weight: 600;
+
+
+}
+#spotlight section.home div.left h1{
+	font-size: 55px;
+	font-weight: 600;
+
+}
+#spotlight section.home div.left p{
+	font-size: 15px;
+	color: #9B9B9B;
+	margin: 10px 0;
+	
+}
+#spotlight section.home div.left a{
+	background: #00BFD8;
+	padding: 9px;
+    border-radius: 26px;
+    margin-top: 6%;
+	display: block;
+	width: 114px;
+    text-align: center;
+	color: #fff;
+
+}
+#spotlight section.home div.left a:hover{
+	background-color: aliceblue;
+	border: 1px solid #00BFD8;
+	color:#00bfd8 ;
+
+}
+#spotlight section.home div.left a.button{
+
+}
+#spotlight section.home div.right{
+	width: 40%;
+	
+}
+#spotlight section.home div.right div.img_container{
+	width:84%;
+	
+}
+#spotlight section.home div.right div.img_container img{
+	display: block;
+	width: 100%;
+}
+#business{
+
+}
+#business section.top{
+
+}
+#business section.top p{
+	
+	text-align: center;
+	margin: 60px 0;
+	font-size: 2 6px;
+
+}
+#business section.top div.items{
+	padding: 0 13px;
+
+}
+#business section.top div.items ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 160px;
+
+}	
+#business section.top div.items ul li{
+	width: 18%;
+
+}	
+#business section.top div.items ul li a{
+
+}
+#business section.top div.items ul li a img{
+	display: block;
+	width: 100%;
+
+}	
+#business section.middle{
+	width: 100%;
+	margin-top:100px ;
+
+}
+#business section.middle div.top{
+	margin: 0 auto;
+	
+}
+#business section.middle div.top h1{
+	font-size: 38px;
+	text-align: center;
+	font-weight: 800;
+	
+}
+#business section.middle div.top p{
+	text-align: center;
+    width: 46%;
+    margin: 30px auto;
+	color: #9B9B9B;
+	
+}
+#business section.middle div.items{
+
+}
+#business section.middle div.items div.box{
+	width: 100%;
+	
+}
+#business section.middle div.items div.box ul{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+#business section.middle div.items div.box ul li{
+	width: 30%;
+	padding: 33px;
+    border: 1px solid #9B9B9B;
+}
+#business section.middle div.items div.box ul li div.img_container{
+	width: 30%;
+	align-items: center;
+	margin: 0 auto;
+	
+}
+#business section.middle div.items div.box ul li div.img_container img{
+	width: 100%;
+	display: block;
+
+}
+#business section.middle div.items div.box ul li h1{
+		font-size: 20px;
+		font-weight: 800;
+		margin: 22px 0;
+		text-align: center;
+
+}
+#business section.middle div.items div.box ul li p{
+	font-size: 11px;
+	color: #9B9B9B;
+	text-align: center;
+}
+#design{
+	width: 100%;
+	padding-top: 10%;
+
+
+}
+#design div.items{
+	display: flex;
+	justify-content: space-between;
+
+}
+#design div.items div.left{
+	width: 60%;
+	padding: 95px;
+	
+}
+#design div.items div.left h1{
+	font-size: 39px;
+    font-weight: 800;
+}
+#design div.items div.left p{
+	font-size: 15px;
+    margin: 10px auto;
+	color: #9B9B9B;
+	
+}
+#design div.items div.left a{
+	display: block;
+	background:#00BFD8;
+    width: 30%;
+    margin: 28px 22px;
+    text-align: center;
+    padding: 10px;
+	border-radius: 30px;
+	font-size: 14px;
+    font-weight: 800;
+    color: #fff
+}
+#design div.items div.right{
+	width: 45%;
+}
+#design div.items div.right div.img_container{
+}
+#design div.items div.right div.img_container img{ 
+	width: 100%;
+	display: block;
+
+}
+#design div.items_2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 34px;
+}
+#design div.items_2 div.left{
+	width: 50%;
+
+}
+#design div.items_2 div.left div.img_container{
+	width: 88%;
+}
+#design div.items_2 div.left div.img_container img{
+	display: block;
+	width: 100%;
+
+}
+#design div.items_2 div.right{
+	width: 40%;										
+
+}
+#design div.items_2 div.right h1{
+	font-size: 37px;
+    font-weight: 800;
+	
+}
+#design div.items_2 div.right div.lists{
+	
+}
+#design div.items_2 div.right div.lists Ul{
+	align-items: center;
+    padding: 33px 0;
+
+}
+#design div.items_2 div.right div.lists Ul li{
+	display: flex;
+	width: 88%;
+
+}
+#design div.items_2 div.right div.lists Ul li div.img_container{
+	width: 4%;
+}
+#design div.items_2 div.right div.lists Ul li div.img_container img{
+	display: block;
+	width: 100%;
+
+}
+#design div.items_2 div.right div.lists Ul li p{
+	margin-left: 5px;
+	color: #9B9B9B;
+	font-size: 13px;
+
+}
+#design div.items_2 div.right  a{
+	display: block;
+	background:#00BFD8;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+	border-radius: 30px;
+	font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+}
+#pricing{
+	padding-top: 100px;
+
+}
+#pricing div.top{
+	margin-bottom: 75px;
+	
+}
+#pricing div.top h1 {
+		font-size: 34px;
+		margin: 0 auto;
+		font-weight: 600;
+		text-align: center;
+}
+#pricing div.top p{
+	text-align: center;
+    width: 47%;
+    margin: 18px auto;
+	color: #9B9B9B;
+}
+#pricing div.bottom{
+	width: 100%;
+
+
+}
+#pricing div.bottom div.items{
+	
+}
+#pricing div.bottom div.items ul{
+	display: flex;
+	justify-content: center;
+	
+}
+#pricing div.bottom div.items ul li{
+	width: 28%;
+    border: 1px solid silver;
+	position: relative;
+	margin-left: 25px;
+}
+#pricing div.bottom div.items ul li h1{
+	font-size: 27px;
+    font-weight: 800;
+    text-align: center;
+	margin-top: 63px;
+}
+#pricing div.bottom div.items ul li h6{
+	font-size: 14px;
+	color: #9B9B9B;
+	text-align: center;
+}
+#pricing div.bottom div.items ul li div.price{
+	width: 33%;
+    margin: 23px auto;
+}
+#pricing div.bottom div.items ul li div.price small{
+	text-align: center;
+	color: #00bfd8;
+	font-size: 30px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+#pricing div.bottom div.items ul li div.price small p{
+	text-align: center;
+    color: #00bfd8;
+    font-weight: 800;
+    font-size: 53px;
+	padding-top: 25px
+}
+#pricing div.bottom div.items ul li div.price small h2{
+	font-size: 45px;
+    font-weight: 700;
+	padding-top: 8px
+}
+#pricing div.bottom div.items ul li div.price p{
+	text-align: center;
+	color: #00bfd8;
+	font-weight: 700;
+	font-size: 33px;	
+}
+#pricing div.bottom div.items ul li div.price h3{
+	font-size: 17px;
+    text-align: center;
+    font-weight: 500;	
+}
+#pricing div.bottom div.items ul li div.checklist{
+	width: 100%;
+	margin-bottom: 15%;
+}
+#pricing div.bottom div.items ul li div.checklist div.content{
+	display: flex;
+	margin: 0 10%;
+	align-items: center;
+	width: 100%;
+}
+#pricing div.bottom div.items ul li div.checklist div.content div.img_container{
+	width: 5%;
+}
+#pricing div.bottom div.items ul li div.checklist div.content div.img_container_cross{
+	width: 3%;
+}
+#pricing div.bottom div.items ul li div.checklist div.content div.img_container_cross img{
+	width: 100%;
+	display: block;
+}
+
+#pricing div.bottom div.items ul li div.checklist div.content div.img_container img{
+	width: 100%;
+	display: block;
+}
+#pricing div.bottom div.items ul li div.checklist div.content p{
+	display: flex;
+	margin-left: 8px;
+	font-size: 15px;
+	color: #9B9B9B;
+}
+#pricing div.bottom div.items ul li a{
+	display: block;
+    background: #00BFD8;
+    color: #fff;
+    margin: 0px auto;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+	position: absolute;
+    bottom: -15px;
+    right: 108px;
+}
+#form{
+	width: 100%;
+	margin-top: 13%	;
+	display: flex;
+	padding: 78px
+}
+#form div.content{
+	display: flex;
+	justify-content: center;
+}
+#form div.content div.left{
+	width: 39%;
+}
+#form div.content div.left h1{
+	font-size: 36px;
+    font-weight: 700;
+}
+#form div.content div.left p{
+	font-size: 15px;
+	color: silver;
+	margin: 25px 0;	
+}
+#form div.content div.left div.items{
+}
+#form div.content div.left div.items ul{
+}
+#form div.content div.left div.items ul li{
+	width: 100%;
+    display: flex;
+    align-items: center;
+}
+#form div.content div.left div.items ul li {
+	display: flex;
+	padding: 3px 0;
+	width: 100%;
+}
+#form div.content div.left div.items ul li  h3{
+	margin-left: 6px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+#form div.content div.left div.items ul li  h3 span{
+	color: silver;
+}
+#form div.content div.left div.items ul li div.img_container{
+	width: 3%;
+}
+#form div.content div.left div.items ul li div.img_container img{
+	width: 100%;
+	display: block;
+}
+#form div.content div.right{
+	width: 40%;
+}
+#form div.content div.right form{
+	width: 100%;
+	margin-left: 68px;
+}
+#form div.content div.right form input[type="text"]{
+	border: 1px solid silver;
+    width: 91%;
+    padding: 2%;
+}
+#form div.content div.right input[type="email"]{
+	border: 1px solid silver;
+    width: 91%;
+    padding: 2%;
+	margin: 19px auto;
+	color: #9B9B9B;	
+}
+#form div.content div.right input[type="number"]{
+	border: 1px solid silver;
+    width: 91%;
+    padding: 2%;
+	color: #9B9B9B;
+}
+#form div.content div.right input[type="text"]{
+	border: 1px solid silver;
+    width: 91%;
+    padding: 2%;
+	color: #9B9B9B;
+}
+#form div.content div.right form select{
+	border: 1px solid silver;
+    width: 91%;
+    padding: 2%;
+	margin: 19px auto;
+	color: #9B9B9B;
+}
+#form div.content div.right form  p{
+	color: #9B9B9B;
+	font-size: 13px
+}
+#form div.content div.right form  p a{
+	border-bottom: 1px solid;
+}
+#form div.content div.right form [type="checkbox"]{
+	color: #9B9B9B;
+}
+#form div.content div.right form [type="checkbox"] a{
+	color: #9B9B9B;
+}
+#form div.content div.right form [type="submit"]{
+	background: #00BFD8;
+    color: #fff;
+    padding: 13px;
+    margin: 15px auto;
+    align-items: center;
+    width: 91%;
+    border-radius: 37px;
+
+}
+#form div.content div.right form [type="submit"]:hover{
+	cursor: pointer;
+ 
+}
+#video{
+}
+#video div.content{
+	position: relative;
+}
+#video div.content h1{
+	font-size: 35px;
+    font-weight: 800;
+    align-items: center;
+    margin: 45px auto;
+    text-align: center;
+}
+#video div.content div.img_container{
+		width: 80%;
+		margin: 0 auto
+}
+#video div.content div.img_container img{
+	display: block;
+	width:100% ;
+	border-radius: 19px
+}
+#video div.content div.play{
+	width: 74px;
+    background: #2ccade;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 43%;
+    left: 47%;
+}
+#video div.content div.play:hover{
+	cursor: pointer;
+}
+#video div.content div.play img{
+	width: 100%;
+	display: block;
+	filter: invert(100%);
+}
+#video div.content p{
+	text-align: center;
+    margin: 45px auto;
+    width: 60%;
+	color:#9B9B9B;
+}
+#video div.content p small{
+	color: dimgray;
+	font-weight: 900;
+}
+#team{
+	margin-top: 129px
+}
+#team div.top{
+	
+}
+#team div.top h1{
+	font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+#team div.top p{
+	width: 50%;
+    text-align: center;
+    margin: 39px auto;
+	color: #9B9B9B;
+}
+#team div.items {
+	width: 89%;
+    margin: 84px 0 11px 98px;
+}
+#team div.items  ul{
+	display: flex;
+	justify-content: space-between;
+}
+#team div.items  ul li{
+	width: 30%;
+}
+#team div.items  ul li div.img_container{
+	width: 70%;
+	align-items: center;
+	text-align: center;
+	margin-left: 40px
+}
+#team div.items  ul li div.img_container img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+#team div.items  ul li h1{
+	font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+	margin: 22px 0 10px 0px;
+	color: #9B9B9B;
+}
+#team div.items  ul li p{
+	text-align: center;
+	color: #9B9B9B;
+	font-size: 14px;
+}
+#team div.items ul li div.bottom{
+	display: flex;
+    width: 32%;
+    margin: 0 auto;
+}
+#team div.items ul li div.bottom div.img_social{
+	width: 40%;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+#team div.items ul li div.bottom div.img_social img{
+	width: 100%;
+	display: block;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 190px;
+}
+footer div.content{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 63px;
+}
+footer div.content div.left{
+	width: 30%;
+}
+footer div.content div.left div.items{
+}
+footer div.content div.left div.items h1{
+	font-weight: 600;
+}
+footer div.content div.left div.items p{
+	color: #9B9B9B;
+	padding: 11px 0;	
+}
+footer div.content div.middle {
+	width: 30%;
+}
+footer div.content div.middle div.items{
+}
+footer div.content div.middle div.items h1{
+	font-weight: 600;	
+}
+footer div.content div.middle div.items ul{
+	padding: 11px 0;
+}
+footer div.content div.middle div.items ul li{
+	color: #00BFD8;
+	list-style: square;
+}
+footer div.content div.middle div.items ul li p{
+	display: contents;
+}
+footer div.middle div.items ul li a{
+	color: #00bfd8;
+	border-bottom:1px solid #00bfd8;
+}
+footer div.content div.middle div.items ul li a.button{
+}
+footer div.content div.right{
+	width: 30%;
+}
+footer div.content  div.right div.items h1{
+	font-weight: 600;
+}
+footer div.content div.right div.items  ul{
+	display: flex;
+}
+footer div.content div.right div.items  ul li{
+	width: 16%;
+	padding-top: 17px;
+	margin-left: 15px;
+}
+footer div.content div.right div.items  ul li:first-child{
+	margin-left: 0;
+}
+footer div.content div.right div.items ul li img{
+	display:block;
+	width: 100%;
+}
+footer  div.bottom{
+	width: 100%;
+}
+footer div.bottom p{
+	color: #9B9B9B;
+	text-align:center;
+    padding: 37px 0;
+}
+@media all and (max-width: 1080px){
+	#spotlight{
+		background-position: none;
+		background-position-y: 0%;
+	}
+	#spotlight header div.right ul {
+
+	}
+	
+	#spotlight header {
+	width: 97%
+
+	}
+	#spotlight header div.left h1 {
+		width: 38%;
+		margin-left: 27px;
+	}
+	#spotlight section.home div.left span.color h1 {
+		font-size: 43px;
+		color: #00BFD8;
+		font-weight: 600;
+	}
+	#spotlight section.home div.left h1 {
+		font-size: 44px;
+		font-weight: 600;
+	}
+	#business section.top div.items {
+		padding: 0 0;
+	}
+	#business section.top div.items ul {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 64px;
+	}
+	#business section.middle div.items div.box ul li {
+		width: 28%;
+		padding: 17px;
+		border: 1px solid #9B9B9B;
+	}
+	#business section.middle div.top p {
+		text-align: center;
+		width: 46%;
+		margin: 27px 0px 50px 242px;
+		color: #9B9B9B;
+	}
+	#design div.items div.left h1 {
+		font-size: 28px;
+		font-weight: 800;
+	}
+	#design div.items div.left p {
+		font-size: 11px;
+		margin: 10px auto;
+		color: #9B9B9B;
+	}
+	#spotlight header div.right {
+		width: 60%;
+	}
+	#design div.items_2 div.right h1 {
+		font-size: 30px;
+	}
+	#design div.items_2 {
+	display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+	}
+	#design div.items_2 div.right div.lists Ul li p {
+		margin-left: 8px;
+		color: #9B9B9B;
+		font-size: 12px;
+	}
+	#pricing div.bottom div.items ul li {
+			width: 30%;
+			border: 1px solid silver;
+			position: relative;
+			margin-left: 14px;
+	}
+	#pricing div.bottom div.items ul li h1 {
+		font-size: 23px;
+		font-weight: 800;
+		text-align: center;
+		margin-top: 52px;
+	}
+	#pricing div.bottom div.items ul li h6 {
+		font-size: 14px;
+		margin: 16px auto;
+		color: #9B9B9B;
+		text-align: center;
+	}
+	#pricing div.bottom div.items ul li div.price small p {
+		text-align: center;
+		color: #00bfd8;
+		font-weight: 700;
+		font-size: 52px;
+	}
+	#pricing div.bottom div.items ul li div.price small h2 {
+		font-size: 56px;
+		font-weight: 700;
+	}
+	#pricing div.bottom div.items ul li a {
+		position: absolute;
+		bottom: -16px;
+		right: 103px;
+	}
+	#pricing div.bottom div.items ul li h6 {
+		font-size: 14px;
+		margin: 16px auto;
+	}
+	#form {
+		width: 100%;
+		display: flex;
+		padding: 30px 0;
+	}
+	#form div.content div.right form p {
+		color: #9B9B9B;
+		font-size: 13px;
+	}
+	#form div.content {
+		display: flex;
+		justify-content: center;
+	}
+	#form div.content div.left div.items ul li {
+		display: flex;
+		padding: 8px 0;
+		width: 100%;
+	}
+	footer div.content div.left div.items h1 {
+		font-weight: 600;
+		margin-left: 36px;
+	}
+	footer div.content div.left div.items p {
+		color: #9B9B9B;
+		padding: 10px 23px;
+	}
+	footer div.content div.middle div.items ul {
+		padding: 11px 0;
+		font-size: 15px;
+	}
+	footer div.content div.right div.items ul li {
+		width: 12%;
+		padding-top: 17px;
+		margin-left: 15px;
+	}
+	footer {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 84px;
+	}
+	footer div.bottom p {
+		color: #9B9B9B;
+		text-align: center;
+		padding: 22px 0;
+	}
+	#pricing div.bottom div.items ul li div.checklist div.content div.img_container {
+		width: 6%;
+	}
+}
+@media all and (max-width: 980px){
+	#spotlight header div.right {
+		width: 66%;
+	}
+	#spotlight section.home div.left span.color h1 {
+		font-size: 38px
+	}
+	#spotlight section.home div.left h1 {
+		font-size: 35px;
+		font-weight: 600;
+	}
+	#business section.middle div.top h1 {
+		font-size: 32px;
+	}
+	#business section.middle div.top p {
+		text-align: center;
+		width: 100%;
+		margin: 27px 0px 33px 0px;
+		text-align: center;
+		color: #9B9B9B;
+	}
+	#business section.middle div.items div.box ul li p {
+		font-size: 11px;
+	}
+	#design div.items div.left a {
+		width: 43%;
+	
+	}
+	#design div.items_2 div.right h1 {
+		font-size: 20px;
+	}
+	#design div.items_2 div.right div.lists Ul li div.img_container {
+		width: 7%;
+	}
+	#design div.items_2 div.right div.lists Ul {
+		align-items: center;
+		padding: 28px 0;
+		width: 100%;
+	}
+	#design div.items_2 div.right div.lists Ul li div.img_container {
+		width: 4%;
+	}
+	#design div.items_2 div.right a {
+		display: block;
+		background: #00BFD8;
+		width: 32%;
+	}
+	#design div.items div.left {
+		width: 60%;
+		padding: 60px;
+	}
+	#pricing div.bottom div.items ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#pricing div.bottom div.items ul li div.checklist div.content {
+		display: flex;
+		margin: 0 74px;
+		align-items: center;
+		}
+	#pricing div.bottom div.items ul li div.price small {
+		text-align: center;
+		color: #00bfd8;
+		font-size: 39px;
+	}
+	#pricing div.bottom div.items ul li div.price small h2 {
+    font-size: 45px;
+    font-weight: 700;
+	}
+	#pricing div.bottom div.items ul li div.price small p {
+		font-size: 38px;
+	}
+	#pricing div.bottom div.items ul li div.checklist div.content p {
+		margin-left: 10px;
+		font-size: 11px;
+	}
+	#video div.content p {
+		text-align: center;
+		margin: 19px auto;
+		width: 74%;
+		color: #9B9B9B;
+	}
+	#form div.content {
+		flex-wrap: wrap;
+	}
+	#form div.content div.left {
+		width: 64%;
+		padding-bottom: 30px;
+	}
+	#form div.content div.right {
+		width: 100%;
+	}
+	#form div.content div.right form [type="submit"] {
+		background: #00BFD8;
+		color: #fff;
+		padding: 9px;
+		margin: 15px auto;
+		align-items: center;
+		width: 20%;
+		border-radius: 37px;
+	}
+	#form div.content div.right form input[type="text"] {
+		border: 1px solid silver;
+		width: 38%;
+		padding: 9px;
+	}
+	#form div.content div.right input[type="email"] {
+		width: 38%;
+		padding: 9px;
+	}
+	#form div.content div.right input[type="number"] {
+		width: 38%;
+		padding: 9px;
+	}
+	#form div.content div.right form select {
+		width: 38%;
+		padding: 9px;
+	}
+	#form div.content div.right form {
+		width: 100%;
+		margin-left: 138px;
+	}
+	#form div.content div.left h1 {
+		font-size: 31px;
+	}
+	#pricing div.bottom div.items ul li {
+		width: 44%;
+		margin-left:0;
+		margin-bottom: 41px;
+	}
+	#pricing div.bottom div.items ul li h1 {
+		margin-top: 10px;
+	}
+	#pricing div.bottom div.items ul li div.price {
+		width: 35%;
+		margin: 14px auto;
+	}
+	#design div.items_2 div.right {
+		width: 51%;
+	}
+	#business section.middle div.top p {
+		text-align: center;
+		width: 82%;
+		margin: 0 auto;
+	}
+	#business section.top div.items ul li {
+		width: 13%;
+	}
+	#business section.top div.items ul li {
+		width: 13%;
+	}
+	#business section.top p {
+		text-align: center;
+		margin: 44px 0;
+	}
+	#team div.top p {
+		width: 86%;
+	}
+	#team div.items ul li h1 {
+		font-size: 15px;
+	}
+	#team div.items {
+		width: 89%;
+		margin: 0 auto;
+	}
+	#team div.items ul li p {
+		text-align: center;
+		color: #9B9B9B;
+		font-size: 11px;
+		}
+	#team div.items ul {
+		flex-wrap: wrap;
+	}
+	#team div.items ul li {
+		width: 30%;
+		margin: 17px auto;
+	}
+	footer div.content {
+		padding-bottom: 37px;
+	}
+	footer div.content {
+		flex-wrap: wrap;
+		margin-left: 4%;
+	}
+	footer div.content div.left {
+		width: 50%;
+	}
+	footer div.content div.left div.items p {
+		color: #9B9B9B;
+		padding: 8px 8px;
+		font-size: 15px;
+	}
+}
+@media all and (max-width: 768px){
+	#spotlight header div.right {
+		width: 66%;
+		display: none;
+	}
+	#spotlight section.home div.left {
+		width: 54%;
+		align-items: center;
+		margin-left: 20px;
+		margin-top: 73px;
+	}
+	#business section.middle div.items div.box ul {
+		flex-wrap: wrap;
+	}
+	#business section.middle div.items div.box ul li {
+		width: 48%;
+		margin-bottom: 6%;
+	}
+	#design div.items div.left {
+		width: 100%;
+	}
+	#design div.items {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	#design div.items div.right {
+			width: 48%;
+			margin: 0 auto;
+		}
+	#design div.items div.left a {
+			width: 21%;
+		}
+	#design div.items_2 {
+			display: flex;
+			justify-content: start;
+			align-items: center;
+			width: 100%;
+			flex-wrap: wrap;
+		}
+	#design div.items_2 div.left {
+			width: 68%;
+			margin: 0 auto;
+		}
+	#design div.items_2 div.right {
+			width: 63%;
+			margin: 41px auto;
+		}
+	#design div.items_2 div.right {
+			width: 63%;
+			margin: 30px auto;
+		}	
+	#pricing div.top p {
+		width: 77%
+	}
+	#pricing div.bottom div.items ul li {
+		width: 60%;
+	}
+	#pricing div.bottom div.items ul li a {
+		position: absolute;
+		bottom: -16px;
+		right: 144px;
+	}
+	footer {
+		padding-top: 38px
+	}
+	#video div.content div.play {
+		bottom: 41%;
+		left: 46%
+	}
+	footer div.content div.middle {
+		width: 54%;
+	}
+	#pricing div.bottom div.items ul li div.price {
+		width: 22%;
+	}
+	#pricing div.bottom div.items ul li div.checklist div.content div.img_container {
+		width: 3%;
+	}
+	#pricing div.bottom div.items ul li div.checklist {
+		width: 100%;
+		margin-bottom: 15%;
+		margin-left: 26px;
+	}
+	#form div.content div.right form {
+		width: 100%;
+		margin-left: 50px;
+	}
+}
+@media all and (max-width: 640px){
+	#spotlight header div.left h1 {
+		width: 77%;
+	}
+	#spotlight section.home {
+		flex-wrap: wrap-reverse;
+	}
+	#spotlight section.home div.right {
+		width: 67%;
+		margin: 0 auto;
+	}
+	#spotlight section.home div.left {
+		width: 70%;
+		margin :0 auto;
+	}
+	#spotlight section.home div.left p {
+		font-size: 12px;
+	}
+	#spotlight section.home div.left a {
+		margin-top: 2%;
+	}
+	#business section.top div.items ul {
+		flex-wrap: wrap;
+	}
+	#business section.top div.items ul li {
+		width: 43%;
+		padding: 10px;
+	}
+	#business section.top div.items ul li:last-child{
+		margin: 0 auto;
+	}
+	#business section.middle div.top p {
+		padding: 13px 0;
+		font-size: 13px;
+	}
+	#business section.middle div.items div.box ul li {
+		margin: 9px auto;
+	}
+	#design div.items div.left a {
+		width: 26%;
+		margin: 0 auto;
+	}
+	#design div.items_2 div.right {
+		width: 84%;
+		margin: 23px auto;
+	}
+	#design div.items_2 div.right a {
+		margin: 0 auto;
+		width: 25%;
+	}
+	#pricing div.top h1 {
+		font-size: 32px;
+	}
+	#pricing div.top p {
+		width: 100%;
+		font-size: 13px
+	}
+	#pricing div.bottom div.items ul li a {
+		right: 100px;
+	}
+	#form div.content div.left h1 {
+		font-size: 19px;
+		}
+	#form div.content div.left p {
+		font-size: 10px;
+		color: silver;
+		margin: 12px 0;
+		}
+	#form div.content div.left div.items ul li h3 {
+			margin-left: 6px;
+			font-size: 10px;
+		}
+	#form div.content div.right form input[type="text"] {
+			width: 61%;
+			font-size: 13px;
+    		padding: 6px;
+		}
+	#form div.content div.right input[type="email"] {
+			width: 61%;
+			font-size: 13px;
+    		padding: 6px;
+
+		}
+	#form div.content div.right input[type="number"] {
+			width: 61%;
+			font-size: 13px;
+    		padding: 6px;
+	}
+	#form div.content div.right form select {
+			width: 61%;
+			font-size: 13px;
+			padding: 6px;
+
+	}
+	#form div.content div.right form p {
+	    font-size: 11px;
+	}
+	#form div.content div.right form [type="submit"] {
+		width: 19%;
+	}
+	#team div.top p {
+		width: 86%;
+		font-size: 12px
+	}
+	#team div.items ul li div.img_container {
+		width: 70%;
+		margin: 0 auto;
+	}
+	#team div.items ul li div.bottom {
+		width: 48%;
+		margin: 0 auto;
+	}
+	footer div.content div.left div.items {
+		width: 100%;
+	}
+	footer div.content div.left {
+		width: 100%;
+	}
+	footer div.content div.middle {
+		width: 100%;
+	}
+	footer div.content div.left div.items p {
+	padding: 0px 0px;
+	}
+	footer div.content div.right {
+		width: 63%;
+	}
+	footer div.content div.middle {
+		margin-left: 38%;
+		width: 100%;
+	}
+	#team div.top h1 {
+		font-size: 31px;
+	}
+	#team div.top p {
+		margin: 13px auto;
+	}
+	footer div.content div.left div.items h1 {
+	margin-left: 0px;
+	}
+}
+@media all and (max-width: 480px){
+	#spotlight section.home div.left {
+		width: 90%;
+		margin: 17px auto;
+	}
+	#business section.top div.items ul li {
+		width: 64%;
+		margin: 0 auto;
+	}
+	#business section.middle div.items div.box ul li {
+		margin: 9px auto;
+		width: 81%;
+	}
+	#design div.items div.left {
+		padding: 29px;
+	}
+	#design div.items div.left a {
+		width: 36%;
+	}
+	#design div.items_2 div.right h1 {
+		font-size: 28px;
+	}
+	#video div.content div.play {
+		bottom: 49%;
+		left: 41%;
+	}
+	#video div.content p {
+	width: 100%;
+	font-size: 11px;
+	}
+	#team div.items ul li {
+		width: 68%;
+	}
+	footer div.content div.middle {
+		padding: 19px 0;
+	}
+	#team div.items ul li h1 {
+		font-size: 24px;
+	}
+	#video div.content div.play {
+		bottom: 36%;
+		left: 39%;
+	}
+	#form div.content div.right form input[type="text"] {
+		width: 78%;
+	}
+	#form div.content div.right input[type="email"] {
+		width: 78%;
+	
+
+	}
+	#form div.content div.right input[type="number"] {
+		width: 78%;
+		
+	}
+	#form div.content div.right form select {
+		width: 78%;
+		}	   
+	#form div.content div.right form [type="submit"] {
+    width: 29%;
+	}
+	#pricing div.bottom div.items ul li div.checklist div.content {
+		display: flex;
+		margin: 0 0px;
+	}
+	#pricing div.bottom div.items ul li h6 {
+		font-size: 11px;
+		margin: 6px auto;
+	}
+	#pricing div.bottom div.items ul li a {
+		right: 119px;
+		width: 36%;
+	}
+	#form div.content div.left {
+		width: 100%;
+	}
+	footer div.content div.middle {
+		margin-left: 0%;
+		width: 100%;
+	}
+	#pricing div.bottom div.items ul li {
+		width: 100%;
+	}
+	#pricing div.bottom div.items ul li div.checklist div.content {
+		display: flex;
+		margin: 0 90px;
+	}
+	#video div.content div.img_container {
+    	width: 100%
+}
+@media all and (max-width: 360px){
+	#design div.items_2 div.right a {
+		margin: 0 auto;
+		width: 34%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
